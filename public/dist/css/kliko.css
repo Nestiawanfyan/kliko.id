@@ -1,0 +1,425 @@
+.scroll-fixed
+{
+    background-color: #fff;
+    border-bottom:1px solid rgba(0,0,0,0.3);
+    z-index: 999;
+    color: #fff;
+}
+
+.bg-img-home
+{
+    background-color: #f5f5f5;
+    width:100%;
+    height: auto;
+    background-size: cover;
+}
+
+.banner {
+    background-repeat: no-repeat;
+    width: 100%;
+    height:auto;
+    background-size: cover;
+    background-position-x: -25em;
+}
+
+/* .color-gradient
+{
+    background: linear-gradient(to right,rgba(111, 25, 148,0.5),rgba(179, 157, 219,0.4));
+    width:100%;
+} */
+
+.setting-banner 
+{
+    padding-top: 14em;
+    padding-bottom: 14em;
+}
+
+.title-banner
+{
+    font-family: 'Baloo Bhaina', cursive; 
+    font-size: 80px;
+    color:#fff;
+}
+
+.content-banner
+{
+    font-size: 20px;
+    margin-top:-24px;
+    color:#fff;
+    margin-left:3px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.banner-serach
+{
+    width:75%;
+    border:1px solid rgba(0,0,0,0.3);
+    padding:9px 15px;
+}
+
+.button-banner-search
+{
+    background-color: #6f1994;
+    padding:9.8px 10px;
+    margin-left:-6px;
+    border:none;
+    border-radius: 0px 5px 5px 0px;
+    color:#fff;
+}
+
+.image-banner
+{
+    width:100%;
+    height:100%;
+    background-size: cover;
+}
+
+.bg-color-banner
+{
+    background-color: rgba(0,0,0,0.2);
+    width: 100%;
+    height: auto;
+    padding:20px 0;
+}
+
+.detail-kliko
+{
+    margin-top:-6em;
+}
+
+.pointer:hover
+{
+    cursor: pointer;
+}
+
+.logo-center
+{
+    width: 160px;
+    height: 90px;
+    margin: 0 auto;
+    margin-bottom:20px;
+}
+
+.cl-white
+{
+    color: #fff;
+    font-size: 23px;
+}
+
+.text-center
+{
+    text-align:center;
+}
+
+.margin-banner
+{
+    margin: 60px auto;
+}
+
+.pd-btn-search
+{
+    padding:11px 20px;
+    border-radius:1px 5px 5px 1px !important;
+}
+
+.form-search
+{
+    width:60%;
+    margin:0 auto;
+}
+
+.card-banner
+{
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 4px;
+}
+
+.card-text{
+    font-family: 'Titillium Web', sans-serif;
+    margin-top:-8px;
+}
+
+.card-banner-title
+{
+    text-align: left;
+    font-family: 'Titillium Web', sans-serif;
+    font-size:35px;
+    color:#6f1994;
+    margin-top:13px;
+}
+.btn-search
+{
+    background-color: transparent;
+    z-index: 999;
+    margin-left: -40px;
+    padding:8px 0;
+    margin-top: -1px;
+    border-bottom: 1px solid #ced4da;
+}
+
+.baloo
+{
+    font-family: 'Baloo Bhaina', cursive;
+    color: #616161;
+}
+
+.bullet-box-header
+{
+    padding:20px 30px;
+    background-color:#6f1994;
+    width:30em;
+    margin:0 auto;
+    border-radius:43%;
+}
+
+.img-banner
+{
+    background-size: cover;
+    background-position: 30px;
+    height: 300px;
+}
+
+.back-transparent
+{
+    width:100%;
+    height: 45vh;
+    background: linear-gradient(to right,rgba(245,245,245,0.9), transparent);
+    color: #424242;
+}
+
+.back-transparent-2
+{
+    width:100%;
+    height: 45vh;
+    background: linear-gradient(to left,rgba(245,245,245,0.9), transparent);
+    color: #424242; 
+}
+
+.hover-img:hover
+{
+    cursor: pointer;
+}
+
+.filter-btn
+{
+    margin-left: -80px;
+}
+
+.jenis-kost
+{
+    padding:5px 0px;
+    margin-top:9px;
+    font-family: 'Viga', sans-serif;
+    border-radius:4px;
+}
+
+.center-error
+{
+    text-align: center;
+    color: #b71c1c;
+    font-size: 20px;
+    font-family: 'Titillium Web', sans-serif;
+    padding:30px 0;
+}
+
+.name-kost
+{
+    font-size: 17px;
+    color: #212121;
+    margin-top: -16px;
+    margin-bottom: 0;
+}
+
+.btn-responsive
+{
+    width: 15%;
+    margin-top:-15px;
+}
+
+.filter-harga
+{
+    width:50%;
+}
+
+.jenis-hunian
+{
+    font-family: 'Didact Gothic', sans-serif;      
+    margin-bottom:-1px;
+    margin-left:1px;
+    font-size:15px;
+}
+
+.namaKost-view
+{
+    font-family: 'Baloo Bhaina', cursive;
+    font-size: 45px;
+}
+
+.user-view-kost
+{
+    font-size: 15px;
+    text-align:left;
+    margin-top:5px;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+.alamat-kost
+{
+    font-size: 18px;
+    font-family: 'Didact Gothic', sans-serif;
+    margin-top:-15px;
+}
+
+.fasilitas-view-Kost
+{
+    margin-top:40px;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+.f-border-view
+{
+    border-bottom:1px solid #e0e0e0;
+    font-family: 'Didact Gothic', sans-serif;
+    padding:20px 0;
+}
+
+.center-text
+{
+    text-align:center;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top:-10px;
+    margin-bottom: -20px;
+}
+
+.length-carousel
+{
+    width: 830px;
+    margin-left: -160px;
+}
+
+.center-card-infoTitle
+{
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 19px;
+    color:#fff;
+    text-align: center;
+}       
+
+.title
+{
+    background: #FFF;
+    border-radius: 0;
+    border: 1px solid #ced1cd;
+    font-weight: 600;
+    color: #689f38;
+    padding:20px;
+    text-decoration: none;
+}
+
+.title:hover
+{
+    color: #689f38; 
+}
+
+.padding-p-setting
+{
+    padding:30px;
+}
+
+.color-mn-acc
+{
+    color: #b3b3b3;
+}
+
+.color-mn-acc:hover
+{
+    color: #424242;
+}
+
+.list-group
+{
+    margin:0 30px;
+    font-size:14px;
+}
+
+.li-title
+{
+    text-align:left;
+    border-bottom: 1px solid #6f1994;
+    padding-bottom:6px;
+    margin-bottom:10px;
+    font-size: 16px;font-family: 'Didact Gothic', sans-serif;
+}
+
+li{
+    list-style: none;
+    text-align: left;
+}
+
+li > a
+{
+    color: #686868;
+}
+
+.footers
+{
+    width:30%;
+    text-align:center;
+}
+
+.footer-text
+{
+    margin:1.4em 0px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.social-media
+{
+    font-size: 45px;
+    margin: -16px 0;
+}
+
+.footers-1
+{
+    background-color:whitesmoke;
+    padding:2em 0;
+}
+
+@media only screen and (max-width:1000px){
+    .btn-responsive-2
+    {
+        width:100%;
+    }
+    .col-11{
+        width:100%;
+        max-width: none !important;
+        flex: none !important;
+    }
+    .length-carousel
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .btn-responsive
+    {
+        width: 100%;
+        margin-top:10px;
+    }
+    .filter-harga
+    {
+        width:100%;
+    }
+    .res-none
+    {
+        display: none;
+    }
+    .footers
+    {
+        width:90%;
+    }
+}
+

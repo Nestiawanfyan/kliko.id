@@ -1,0 +1,43 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^(www.)?dev.sca.ancojaya.co.id$
+RewriteCond %{REQUEST_URI} !^/public/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /public/$1
+RewriteCond %{HTTP_HOST} ^(www.)?dev.sca.ancojaya.co.id$
+RewriteRule ^(/)?$ public/index.php [L]
+
+RewriteCond %{HTTP_REFERER} !^$
+RewriteCond %{HTTP_REFERER} !^http://localhost/kostbdl_new/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://ancojaya.co.id$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://helpdesk.ancojaya.co.id/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://helpdesk.ancojaya.co.id$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://mail.ancojaya.co.id/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://mail.ancojaya.co.id$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://dev.sca.ancojaya.co.id/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://dev.sca.ancojaya.co.id$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.ancojaya.co.id/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.ancojaya.co.id$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.helpdesk.ancojaya.co.id/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.helpdesk.ancojaya.co.id$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.mail.ancojaya.co.id/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.mail.ancojaya.co.id$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.dev.sca.ancojaya.co.id/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.dev.sca.ancojaya.co.id$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://localhost/kostbdl_new/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://ancojaya.co.id$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://helpdesk.ancojaya.co.id/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://helpdesk.ancojaya.co.id$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://mail.ancojaya.co.id/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://mail.ancojaya.co.id$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://dev.sca.ancojaya.co.id/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://dev.sca.ancojaya.co.id$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://www.ancojaya.co.id/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://www.ancojaya.co.id$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://www.helpdesk.ancojaya.co.id/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://www.helpdesk.ancojaya.co.id$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://www.mail.ancojaya.co.id/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://www.mail.ancojaya.co.id$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://www.dev.sca.ancojaya.co.id/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://www.dev.sca.ancojaya.co.id$      [NC]
+RewriteRule .*\.(.*jpg|jpeg|gif|png|bmp)$ - [F,NC]
